@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4A623D5208C7F670009FDBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A623D4208C7F670009FDBE /* AppDelegate.swift */; };
+		F4A623DA208C7F670009FDBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A623D8208C7F670009FDBE /* Main.storyboard */; };
+		F4A623DC208C7F680009FDBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A623DB208C7F680009FDBE /* Assets.xcassets */; };
+		F4A623DF208C7F680009FDBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A623DD208C7F680009FDBE /* LaunchScreen.storyboard */; };
+		F4A623EC208C7F880009FDBE /* SAPFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A623E6208C7F7D0009FDBE /* SAPFoundation.framework */; };
+		F4A623ED208C7F880009FDBE /* SAPFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F4A623E6208C7F7D0009FDBE /* SAPFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F4A623EE208C7F880009FDBE /* SAPOfflineOData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A623E7208C7F7E0009FDBE /* SAPOfflineOData.framework */; };
+		F4A623EF208C7F880009FDBE /* SAPOfflineOData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F4A623E7208C7F7E0009FDBE /* SAPOfflineOData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F4A623F0208C7F880009FDBE /* SAPCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A623E8208C7F7E0009FDBE /* SAPCommon.framework */; };
+		F4A623F1208C7F880009FDBE /* SAPCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F4A623E8208C7F7E0009FDBE /* SAPCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F4A623F2208C7F880009FDBE /* SAPOData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A623E9208C7F810009FDBE /* SAPOData.framework */; };
+		F4A623F3208C7F880009FDBE /* SAPOData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F4A623E9208C7F810009FDBE /* SAPOData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F4A623F4208C7F880009FDBE /* SAPFiori.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A623EA208C7F850009FDBE /* SAPFiori.framework */; };
+		F4A623F5208C7F880009FDBE /* SAPFiori.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F4A623EA208C7F850009FDBE /* SAPFiori.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F4A623F6208C7F880009FDBE /* SAPFioriFlows.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A623EB208C7F880009FDBE /* SAPFioriFlows.framework */; };
+		F4A623F7208C7F880009FDBE /* SAPFioriFlows.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F4A623EB208C7F880009FDBE /* SAPFioriFlows.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F4A623FA208C7FE60009FDBE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A623F9208C7FE60009FDBE /* TableViewController.swift */; };
+		F4A623FC208C82E30009FDBE /* TranslationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A623FB208C82E30009FDBE /* TranslationModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F4A623F8208C7F890009FDBE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F4A623ED208C7F880009FDBE /* SAPFoundation.framework in Embed Frameworks */,
+				F4A623F7208C7F880009FDBE /* SAPFioriFlows.framework in Embed Frameworks */,
+				F4A623F5208C7F880009FDBE /* SAPFiori.framework in Embed Frameworks */,
+				F4A623F1208C7F880009FDBE /* SAPCommon.framework in Embed Frameworks */,
+				F4A623EF208C7F880009FDBE /* SAPOfflineOData.framework in Embed Frameworks */,
+				F4A623F3208C7F880009FDBE /* SAPOData.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F4A623D1208C7F670009FDBE /* MyiOSTrialTranslationAppV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyiOSTrialTranslationAppV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A623D4208C7F670009FDBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4A623D9208C7F670009FDBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4A623DB208C7F680009FDBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4A623DE208C7F680009FDBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4A623E0208C7F680009FDBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4A623E6208C7F7D0009FDBE /* SAPFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPFoundation.framework; sourceTree = "<group>"; };
+		F4A623E7208C7F7E0009FDBE /* SAPOfflineOData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPOfflineOData.framework; sourceTree = "<group>"; };
+		F4A623E8208C7F7E0009FDBE /* SAPCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPCommon.framework; sourceTree = "<group>"; };
+		F4A623E9208C7F810009FDBE /* SAPOData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPOData.framework; sourceTree = "<group>"; };
+		F4A623EA208C7F850009FDBE /* SAPFiori.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPFiori.framework; sourceTree = "<group>"; };
+		F4A623EB208C7F880009FDBE /* SAPFioriFlows.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPFioriFlows.framework; sourceTree = "<group>"; };
+		F4A623F9208C7FE60009FDBE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		F4A623FB208C82E30009FDBE /* TranslationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4A623CE208C7F670009FDBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A623EC208C7F880009FDBE /* SAPFoundation.framework in Frameworks */,
+				F4A623F6208C7F880009FDBE /* SAPFioriFlows.framework in Frameworks */,
+				F4A623F4208C7F880009FDBE /* SAPFiori.framework in Frameworks */,
+				F4A623F0208C7F880009FDBE /* SAPCommon.framework in Frameworks */,
+				F4A623EE208C7F880009FDBE /* SAPOfflineOData.framework in Frameworks */,
+				F4A623F2208C7F880009FDBE /* SAPOData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4A623C8208C7F670009FDBE = {
+			isa = PBXGroup;
+			children = (
+				F4A623E8208C7F7E0009FDBE /* SAPCommon.framework */,
+				F4A623EA208C7F850009FDBE /* SAPFiori.framework */,
+				F4A623EB208C7F880009FDBE /* SAPFioriFlows.framework */,
+				F4A623E6208C7F7D0009FDBE /* SAPFoundation.framework */,
+				F4A623E9208C7F810009FDBE /* SAPOData.framework */,
+				F4A623E7208C7F7E0009FDBE /* SAPOfflineOData.framework */,
+				F4A623D3208C7F670009FDBE /* MyiOSTrialTranslationAppV2 */,
+				F4A623D2208C7F670009FDBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4A623D2208C7F670009FDBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4A623D1208C7F670009FDBE /* MyiOSTrialTranslationAppV2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4A623D3208C7F670009FDBE /* MyiOSTrialTranslationAppV2 */ = {
+			isa = PBXGroup;
+			children = (
+				F4A623D4208C7F670009FDBE /* AppDelegate.swift */,
+				F4A623D8208C7F670009FDBE /* Main.storyboard */,
+				F4A623DB208C7F680009FDBE /* Assets.xcassets */,
+				F4A623DD208C7F680009FDBE /* LaunchScreen.storyboard */,
+				F4A623E0208C7F680009FDBE /* Info.plist */,
+				F4A623F9208C7FE60009FDBE /* TableViewController.swift */,
+				F4A623FB208C82E30009FDBE /* TranslationModel.swift */,
+			);
+			path = MyiOSTrialTranslationAppV2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4A623D0208C7F670009FDBE /* MyiOSTrialTranslationAppV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4A623E3208C7F680009FDBE /* Build configuration list for PBXNativeTarget "MyiOSTrialTranslationAppV2" */;
+			buildPhases = (
+				F4A623CD208C7F670009FDBE /* Sources */,
+				F4A623CE208C7F670009FDBE /* Frameworks */,
+				F4A623CF208C7F670009FDBE /* Resources */,
+				F4A623F8208C7F890009FDBE /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyiOSTrialTranslationAppV2;
+			productName = MyiOSTrialTranslationAppV2;
+			productReference = F4A623D1208C7F670009FDBE /* MyiOSTrialTranslationAppV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4A623C9208C7F670009FDBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Home;
+				TargetAttributes = {
+					F4A623D0208C7F670009FDBE = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = F4A623CC208C7F670009FDBE /* Build configuration list for PBXProject "MyiOSTrialTranslationAppV2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4A623C8208C7F670009FDBE;
+			productRefGroup = F4A623D2208C7F670009FDBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4A623D0208C7F670009FDBE /* MyiOSTrialTranslationAppV2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4A623CF208C7F670009FDBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A623DF208C7F680009FDBE /* LaunchScreen.storyboard in Resources */,
+				F4A623DC208C7F680009FDBE /* Assets.xcassets in Resources */,
+				F4A623DA208C7F670009FDBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4A623CD208C7F670009FDBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A623D5208C7F670009FDBE /* AppDelegate.swift in Sources */,
+				F4A623FA208C7FE60009FDBE /* TableViewController.swift in Sources */,
+				F4A623FC208C82E30009FDBE /* TranslationModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4A623D8208C7F670009FDBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4A623D9208C7F670009FDBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4A623DD208C7F680009FDBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4A623DE208C7F680009FDBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4A623E1208C7F680009FDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4A623E2208C7F680009FDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4A623E4208C7F680009FDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RXVQL863LU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MyiOSTrialTranslationAppV2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.codingshivaay.MyiOSTrialTranslationAppV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4A623E5208C7F680009FDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RXVQL863LU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MyiOSTrialTranslationAppV2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.codingshivaay.MyiOSTrialTranslationAppV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4A623CC208C7F670009FDBE /* Build configuration list for PBXProject "MyiOSTrialTranslationAppV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A623E1208C7F680009FDBE /* Debug */,
+				F4A623E2208C7F680009FDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4A623E3208C7F680009FDBE /* Build configuration list for PBXNativeTarget "MyiOSTrialTranslationAppV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A623E4208C7F680009FDBE /* Debug */,
+				F4A623E5208C7F680009FDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4A623C9208C7F670009FDBE /* Project object */;
+}
